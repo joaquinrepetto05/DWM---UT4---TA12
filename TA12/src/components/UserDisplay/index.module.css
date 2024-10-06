@@ -1,0 +1,31 @@
+.userDisplayContainer {
+    background-color: rgba(211, 211, 211, 0.4);
+    padding: 20px;
+    margin: auto;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 400px;
+}
+
+.userDisplayContainer:hover {
+    background-color: rgba(211, 211, 211, 0.6);
+}
+
+.userDisplayText {
+    color: #333;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
